@@ -91,7 +91,7 @@ def display_switch_commands(commands):
 
 #Define the main program
 def main():
-  "Welcome to the switching CLI command organizer"
+  print("Welcome to the switching CLI command organizer")
   
   while True:
     print("\nOptions:")
@@ -106,6 +106,7 @@ def main():
       display_switch_commands(juniper_commands)
     elif choice == "3": 
       print("Goodbye!")
+      break
     else:
       print("Invalid choice. Please try again.")
 
