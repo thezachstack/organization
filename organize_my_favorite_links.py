@@ -16,6 +16,22 @@ favorite_links = [
   "https://www.executeprogram.com",
   "https://learningportal.juniper.net",
   "https://www.w3schools.com",
+  "https://training.linuxfoundation.org",
+  "https://www.splunk.com",
+  "https://pythoninstitute.org",
+  "https://learn.microsoft.com",
+  "https://d1.awsstatic.com",
+  "https://cloud.google.com/learn",
+  "https://www.vmware.com/topic",
+  "https://www.f5.com",
+  "https://docs.ansible.com/ansible",
+  "https://www.docker.com",
+  "https://developer.cisco.com",
+  "https://www.ciscopress.com",
+  "https://www.paloaltonetworks.com",
+  "https://www.redhat.com",
+  "https://www.isc2.org",
+  "https://blogs.cisco.com",
 ]
 
 #define a function that displays the list alphabetically
@@ -51,3 +67,12 @@ def main():
       print("Invalid choice. Please try again.")
 
 main()
+
+      
+        
+
+      
+    
+    
+    
+  
