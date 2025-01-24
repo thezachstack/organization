@@ -32,6 +32,7 @@ favorite_links = [
   "https://www.redhat.com",
   "https://www.isc2.org",
   "https://blogs.cisco.com",
+  "https://codefinity.com/,
 ]
 
 #define a function that displays the list alphabetically
