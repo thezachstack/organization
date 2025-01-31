@@ -99,7 +99,7 @@ def main():
     print("2. Juniper commands")
     print("3. Exit")
 
-    choice = input("\nChoose an option 1/2/3:").strip()
+    choice = input("\nChoose an option 1/2/3:\n").strip()
     if choice == "1":
       display_switch_commands(cisco_commands)
     elif choice == "2":
@@ -111,8 +111,3 @@ def main():
       print("Invalid choice. Please try again.")
 
 main()
-      
-    
-
-  
-  
