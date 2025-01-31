@@ -66,5 +66,6 @@ def main():
       break
     else:
       print("Invalid choice. Please try again.")
-
+      
+#Call the main function to run the script
 main()
