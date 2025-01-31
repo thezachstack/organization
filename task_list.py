@@ -48,7 +48,7 @@ def view_tasks():
       print(f"{i}. {task}")
 
 def add_task():
-  new_task = input("Enter a new task: ").strip()
+  new_task = input("Enter a new task:\n").strip()
   if new_task and new_task not in tasks:
     tasks.append(new_task)
     print("Your task was successfully added.")
@@ -56,7 +56,7 @@ def add_task():
     print("Your task could not be added to the list.")
 
 def remove_task():
-  old_task = input("Remove an existing task: ").strip()
+  old_task = input("Remove an existing task:\n").strip()
   if old_task and old_task in tasks:
     tasks.remove(old_task)
     print("Your task was successfully removed.")
@@ -68,7 +68,7 @@ while True:
   print("\n1. View Tasks")
   print("2. Add Task")
   print("3. Remove Task")
-  print("4. Exit")
+  print("4. Exit\n")
   choice = input()
   if choice == "1":
     view_tasks()
