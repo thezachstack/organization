@@ -32,7 +32,7 @@ favorite_links = [
   "https://www.redhat.com",
   "https://www.isc2.org",
   "https://blogs.cisco.com",
-  "https://codefinity.com/,
+  "https://codefinity.com",
 ]
 
 #define a function that displays the list alphabetically
@@ -51,11 +51,11 @@ def main():
     print("2. Add a new link")
     print("3. Exit")
 
-    choice = input("Choose an option 1/2/3:").strip()
+    choice = input("Choose an option 1/2/3:\n").strip()
     if choice == "1":
       display_sorted_links(favorite_links)
     elif choice == "2":
-      new_link = input("Enter the URL of the new link: ").strip()
+      new_link = input("Enter the URL of the new link:\n").strip()
       if new_link and new_link not in favorite_links:
         favorite_links.append(new_link)
         print(f"Added: {new_link}")
@@ -68,12 +68,3 @@ def main():
       print("Invalid choice. Please try again.")
 
 main()
-
-      
-        
-
-      
-    
-    
-    
-  
