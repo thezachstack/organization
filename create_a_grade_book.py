@@ -1,3 +1,4 @@
+#This scrips is my solution for Codecademy's gradebook project using Python
 last_semester_gradebook = [["politics", 80], ["latin", 96], ["dance", 97], ["architecture", 65]]
 
 # Your code below: 
@@ -32,8 +33,8 @@ gradebook.append(["poetry", "Pass"])
 
 full_gradebook = last_semester_gradebook + gradebook
 
-print("This is a list of current grades")
+print("This is a list of current grades:")
 print(f"\n{gradebook}")
 
-print("\nThis is a list of all grades")
+print("\nThis is a list of all grades:")
 print(f"\n{full_gradebook}")
