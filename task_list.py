@@ -1,7 +1,6 @@
 #This script is used to generate and view a list of tasks
 
-#Initialize my task list
-
+#This is a list of my personal tasks
 tasks = [
     "Obtain Microsoft Certified Azure Fundamentals Certification",
     "Obtain Amazon Web Services Certified Cloud Practitioner Certification",
@@ -38,7 +37,7 @@ tasks = [
     "Obtain Cisco Certified Design Expert Certification",
 ]
 
-#This function is used to display the tasks in the list.
+#This function is used to display the tasks in the list
 def view_tasks():
   if not tasks:
     print("\nNo tasks available.")
@@ -47,6 +46,7 @@ def view_tasks():
     for i, task in enumerate(tasks, start=1):
       print(f"{i}. {task}")
 
+#This function is used to add a task to the list
 def add_task():
   new_task = input("Enter a new task:\n").strip()
   if new_task and new_task not in tasks:
@@ -55,6 +55,7 @@ def add_task():
   else:
     print("Your task could not be added to the list.")
 
+#This function is used to remove a task from the list
 def remove_task():
   old_task = input("Remove an existing task:\n").strip()
   if old_task and old_task in tasks:
@@ -63,6 +64,7 @@ def remove_task():
   else:
     print("Your task could not be removed from the list.")
 
+#This loop is used display options and ask for user input
 while True:
   print("Use the options below to view or update your current tasks:")
   print("\n1. View Tasks")
