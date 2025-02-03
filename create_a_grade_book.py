@@ -1,9 +1,9 @@
-#This scrips is my solution for Codecademy's gradebook project using Python
+#This script is my solution for Codecademy's gradebook project using Python
 
 #This sets the preassigned values to the last_semester_gradebook variable based on the contents of the Codecademy course
 last_semester_gradebook = [["politics", 80], ["latin", 96], ["dance", 97], ["architecture", 65]]
 
-# This is a list of subjects
+#This is a list of subjects
 subjects = [
   "physics",
   "calculus",
