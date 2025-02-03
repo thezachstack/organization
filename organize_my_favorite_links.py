@@ -1,6 +1,6 @@
-#this is a script to organize your favorite links alphabetically!
+#This is a script to organize your favorite links alphabetically!
 
-#provide a list of favorite links
+#Provide a list of favorite links
 favorite_links = [
   "https://www.coursera.org",
   "https://youtube.com",    
@@ -35,22 +35,20 @@ favorite_links = [
   "https://codefinity.com",
 ]
 
-#define a function that displays the list alphabetically
+#Define a function that displays the list alphabetically
 def display_sorted_links(links):
   print("\nYour favorite links, organized alphabetically:")
   for link in sorted(links):
     print(link)
   
-#define the main program
+#Define the main program
 def main():
   print("Welcome to the Favorite Links Organizer!")
-
   while True:
     print("\nOptions:")
     print("1. View links")
     print("2. Add a new link")
-    print("3. Exit")
-
+    print("3. Exit\n")
     choice = input("Choose an option 1/2/3:\n").strip()
     if choice == "1":
       display_sorted_links(favorite_links)
