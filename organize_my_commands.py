@@ -85,7 +85,7 @@ juniper_commands = [
 
 #Create a function that displays the lists alphabetically
 def display_switch_commands(commands):
-  print("\nUse this tool to organize your troubleshooting commands")
+  print("\nUse this tool to organize your troubleshooting commands:\n")
   for command in sorted(commands):
       print(command)
 
