@@ -12,7 +12,7 @@ tasks = [
     "Obtain Splunk Core Certified User Certification",
     "Obtain Linux Plus Certification",
     "Obtain Security Onion Certified Professional Certification",
-    "Obtain Wireshark Certified Network Analyst (WCNA) Certification",
+    "Obtain Wireshark Certified Analyst Certification",
     "Obtain Kubernetes and Cloud Native Associate Certification",
     "Obtain Certified Security Operations Center Analyst Certification",
     "Obtain Docker Certified Associate Certification",
