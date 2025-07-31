@@ -20,7 +20,7 @@ favorite_links = [
   "https://www.splunk.com",
   "https://pythoninstitute.org",
   "https://learn.microsoft.com",
-  "https://d1.awsstatic.com",
+  "https://d1.awsstatic.com/training-and-certification/docs/AWS_certification_paths.pdf",
   "https://cloud.google.com/learn",
   "https://www.vmware.com/topic",
   "https://www.f5.com",
