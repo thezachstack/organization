@@ -5,7 +5,7 @@ favorite_links = [
   "https://www.coursera.org",
   "https://youtube.com",    
   "https://brilliant.org",
-  "https://www.deeplerning.ai",
+  "https://www.deeplearning.ai",
   "https://www.codecademy.com",
   "https://huggingface.co",
   "https://quizlet.com",
